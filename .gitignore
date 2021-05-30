@@ -1,0 +1,26 @@
+# Ignore the backup files created by solidworks
+*~*
+
+# Apple crap
+.DS_Store
+
+# Eagle crap
+*.b#*
+*.s#*
+*.d#*
+*.exe
+*.zip
+*.l#*
+*.scr
+*.gpi
+*.dri
+*.lck
+
+# Altium crap
+History
+*.PrjPCBStructure
+Project Outputs for *
+Project Logs for *
+ProjectOutputs/
+__Previews
+*.$$$
