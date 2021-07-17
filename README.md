@@ -1,4 +1,4 @@
-# ONIX headstage-neuropix1
+# ONIX Neuropixels-1.0 Headstage
 Serialized, multifunction headstage targeting the neuropixels 1.0 probe. This
 headstage supports serialized acquisition from:
 
