@@ -1,10 +1,10 @@
-# Ignore the backup files created by solidworks
+# Solidworks
 *~*
 
-# Apple crap
+# Apple
 .DS_Store
 
-# Eagle crap
+# Eagle
 *.b#*
 *.s#*
 *.d#*
@@ -16,7 +16,7 @@
 *.dri
 *.lck
 
-# Altium crap
+# Altium
 History
 *.PrjPCBStructure
 Project Outputs for *
