@@ -3740,12 +3740,12 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <text x="-1.2" y="1.1" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 </package>
 <package name="WLCSP6-1X1.2">
-<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
+<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <rectangle x1="-0.5" y1="-0.6" x2="0.5" y2="0.6" layer="39"/>
 <wire x1="-0.56" y1="-0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <wire x1="0.56" y1="0.66" x2="0.56" y2="-0.66" width="0.127" layer="21"/>
@@ -3753,6 +3753,89 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <wire x1="0.56" y1="0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <text x="-0.7" y="-1.8" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+</package>
+<package name="1-2013496-8">
+<smd name="1" x="-6.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-6.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-5.7" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-5.4" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-5.1" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-4.8" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-4.5" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-4.2" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-3.9" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="-3.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-3.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="-3" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-2.7" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-2.4" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-2.1" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-1.8" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-1.5" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="-1.2" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="-0.9" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="-0.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="-0.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="0" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="0.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="0.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="26" x="0.9" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="27" x="1.2" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="28" x="1.5" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="29" x="1.8" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="30" x="2.1" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="31" x="2.4" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="32" x="2.7" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="33" x="3" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="34" x="3.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="35" x="3.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="36" x="3.9" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="37" x="4.2" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="4.5" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="4.8" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="5.1" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="41" x="5.4" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="42" x="5.7" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="43" x="6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<smd name="44" x="6.3" y="2.475" dx="0.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="45" x="6.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
+<text x="-7.55" y="3.65" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<smd name="MECH1" x="-7.2" y="0.475" dx="1" dy="0.4" layer="1" rot="R90"/>
+<smd name="MECH2" x="7.2" y="0.475" dx="1" dy="0.4" layer="1" rot="R90"/>
+<rectangle x1="-7.4" y1="-0.03" x2="7.4" y2="2.78" layer="39"/>
+<rectangle x1="-7.75" y1="0.2" x2="7.75" y2="2.8" layer="39"/>
+</package>
+<package name="FTSH-105-01-F-D-RA-K">
+<wire x1="-3.135" y1="1.905" x2="-3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="4.415" x2="3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="3.135" y1="4.415" x2="3.135" y2="1.905" width="0.1" layer="51"/>
+<wire x1="3.135" y1="1.905" x2="-3.135" y2="1.905" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="4.415" x2="-3.135" y2="7.465" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="7.465" x2="3.135" y2="7.465" width="0.1" layer="51"/>
+<wire x1="3.135" y1="7.465" x2="3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="1.905" x2="-3.135" y2="4.415" width="0.2" layer="21"/>
+<wire x1="3.135" y1="4.415" x2="3.135" y2="1.905" width="0.2" layer="21"/>
+<wire x1="3.135" y1="4.415" x2="-3.135" y2="4.415" width="0.2" layer="21"/>
+<wire x1="3.135" y1="1.905" x2="-3.135" y2="1.905" width="0.2" layer="21"/>
+<pad name="01" x="2.54" y="0.635" drill="0.71" diameter="1.06" shape="square"/>
+<pad name="02" x="2.54" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="03" x="1.27" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="04" x="1.27" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="05" x="0" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="06" x="0" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="07" x="-1.27" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="08" x="-1.27" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="09" x="-2.54" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="10" x="-2.54" y="-0.635" drill="0.71" diameter="1.06"/>
+<rectangle x1="-3.4" y1="-1.4" x2="3.4" y2="7.7" layer="39"/>
+<text x="-2" y="-2.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -6317,6 +6400,58 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_1-2013496-8" package="1-2013496-8">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="13"/>
+<connect gate="G$1" pin="P$14" pad="14"/>
+<connect gate="G$1" pin="P$15" pad="15"/>
+<connect gate="G$1" pin="P$16" pad="16"/>
+<connect gate="G$1" pin="P$17" pad="17"/>
+<connect gate="G$1" pin="P$18" pad="18"/>
+<connect gate="G$1" pin="P$19" pad="19"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$20" pad="20"/>
+<connect gate="G$1" pin="P$21" pad="21"/>
+<connect gate="G$1" pin="P$22" pad="22"/>
+<connect gate="G$1" pin="P$23" pad="23"/>
+<connect gate="G$1" pin="P$24" pad="24"/>
+<connect gate="G$1" pin="P$25" pad="25"/>
+<connect gate="G$1" pin="P$26" pad="26"/>
+<connect gate="G$1" pin="P$27" pad="27"/>
+<connect gate="G$1" pin="P$28" pad="28"/>
+<connect gate="G$1" pin="P$29" pad="29"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$30" pad="30"/>
+<connect gate="G$1" pin="P$31" pad="31"/>
+<connect gate="G$1" pin="P$32" pad="32"/>
+<connect gate="G$1" pin="P$33" pad="33"/>
+<connect gate="G$1" pin="P$34" pad="34"/>
+<connect gate="G$1" pin="P$35" pad="35"/>
+<connect gate="G$1" pin="P$36" pad="36"/>
+<connect gate="G$1" pin="P$37" pad="37"/>
+<connect gate="G$1" pin="P$38" pad="38"/>
+<connect gate="G$1" pin="P$39" pad="39"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$40" pad="40"/>
+<connect gate="G$1" pin="P$41" pad="41"/>
+<connect gate="G$1" pin="P$42" pad="42"/>
+<connect gate="G$1" pin="P$43" pad="43"/>
+<connect gate="G$1" pin="P$44" pad="44"/>
+<connect gate="G$1" pin="P$45" pad="45"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PINHD-2X5" prefix="J" uservalue="yes">
@@ -6442,6 +6577,23 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_FTSH" package="FTSH-105-01-F-D-RA-K">
+<connects>
+<connect gate="G$1" pin="1" pad="01"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="02"/>
+<connect gate="G$1" pin="3" pad="03"/>
+<connect gate="G$1" pin="4" pad="04"/>
+<connect gate="G$1" pin="5" pad="05"/>
+<connect gate="G$1" pin="6" pad="06"/>
+<connect gate="G$1" pin="7" pad="07"/>
+<connect gate="G$1" pin="8" pad="08"/>
+<connect gate="G$1" pin="9" pad="09"/>
 </connects>
 <technologies>
 <technology name=""/>

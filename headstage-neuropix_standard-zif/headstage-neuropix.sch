@@ -3740,12 +3740,12 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <text x="-1.2" y="1.1" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 </package>
 <package name="WLCSP6-1X1.2">
-<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
+<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <rectangle x1="-0.5" y1="-0.6" x2="0.5" y2="0.6" layer="39"/>
 <wire x1="-0.56" y1="-0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <wire x1="0.56" y1="0.66" x2="0.56" y2="-0.66" width="0.127" layer="21"/>
@@ -3753,6 +3753,12 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <wire x1="0.56" y1="0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <text x="-0.7" y="-1.8" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
 </package>
 <package name="1-2013496-8">
 <smd name="1" x="-6.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
@@ -3805,6 +3811,31 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <smd name="MECH2" x="7.2" y="0.475" dx="1" dy="0.4" layer="1" rot="R90"/>
 <rectangle x1="-7.4" y1="-0.03" x2="7.4" y2="2.78" layer="39"/>
 <rectangle x1="-7.75" y1="0.2" x2="7.75" y2="2.8" layer="39"/>
+</package>
+<package name="FTSH-105-01-F-D-RA-K">
+<wire x1="-3.135" y1="1.905" x2="-3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="4.415" x2="3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="3.135" y1="4.415" x2="3.135" y2="1.905" width="0.1" layer="51"/>
+<wire x1="3.135" y1="1.905" x2="-3.135" y2="1.905" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="4.415" x2="-3.135" y2="7.465" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="7.465" x2="3.135" y2="7.465" width="0.1" layer="51"/>
+<wire x1="3.135" y1="7.465" x2="3.135" y2="4.415" width="0.1" layer="51"/>
+<wire x1="-3.135" y1="1.905" x2="-3.135" y2="4.415" width="0.2" layer="21"/>
+<wire x1="3.135" y1="4.415" x2="3.135" y2="1.905" width="0.2" layer="21"/>
+<wire x1="3.135" y1="4.415" x2="-3.135" y2="4.415" width="0.2" layer="21"/>
+<wire x1="3.135" y1="1.905" x2="-3.135" y2="1.905" width="0.2" layer="21"/>
+<pad name="01" x="2.54" y="0.635" drill="0.71" diameter="1.06" shape="square"/>
+<pad name="02" x="2.54" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="03" x="1.27" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="04" x="1.27" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="05" x="0" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="06" x="0" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="07" x="-1.27" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="08" x="-1.27" y="-0.635" drill="0.71" diameter="1.06"/>
+<pad name="09" x="-2.54" y="0.635" drill="0.71" diameter="1.06"/>
+<pad name="10" x="-2.54" y="-0.635" drill="0.71" diameter="1.06"/>
+<rectangle x1="-3.4" y1="-1.4" x2="3.4" y2="7.7" layer="39"/>
+<text x="-2" y="-2.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -6546,6 +6577,23 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_FTSH" package="FTSH-105-01-F-D-RA-K">
+<connects>
+<connect gate="G$1" pin="1" pad="01"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="02"/>
+<connect gate="G$1" pin="3" pad="03"/>
+<connect gate="G$1" pin="4" pad="04"/>
+<connect gate="G$1" pin="5" pad="05"/>
+<connect gate="G$1" pin="6" pad="06"/>
+<connect gate="G$1" pin="7" pad="07"/>
+<connect gate="G$1" pin="8" pad="08"/>
+<connect gate="G$1" pin="9" pad="09"/>
 </connects>
 <technologies>
 <technology name=""/>

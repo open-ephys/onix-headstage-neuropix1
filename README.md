@@ -1,8 +1,9 @@
 # ONIX headstage-neuropix1
-Serialized, multifunction headstage targeting the neuropixels 1.0 probe. This
-headstage supports serialized acquisition from:
+Serialized, multifunction headstage targeting the [Neuropixels 1.0
+probe](https://www.neuropixels.org/probe). This headstage supports serialized
+acquisition from:
 
-- Two neuropixels 1.0 probes
+- Two Neuropixels 1.0 probes
 - A BNO055 9-axis IMU for real-time, 3D orientation tracking
 - Three TS4231 light to digital converters for real-time, 3D position tracking
   with HTC Vive base stations

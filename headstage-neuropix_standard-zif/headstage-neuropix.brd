@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Highspeed1" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND1" color="23" fill="8" visible="yes" active="yes"/>
@@ -1157,12 +1157,12 @@ Rev. 1.3 JPN '20</text>
 <smd name="8" x="0.91" y="0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
 </package>
 <package name="WLCSP6-1X1.2">
-<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
+<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <rectangle x1="-0.5" y1="-0.6" x2="0.5" y2="0.6" layer="39"/>
 <wire x1="-0.56" y1="-0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <wire x1="0.56" y1="0.66" x2="0.56" y2="-0.66" width="0.127" layer="21"/>
@@ -1170,6 +1170,12 @@ Rev. 1.3 JPN '20</text>
 <wire x1="0.56" y1="0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <text x="-0.7" y="-1.8" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1243,8 +1249,8 @@ einem neuen Namen ab.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="1mil"/>
-<param name="mlMaxStopFrame" value="1mil"/>
+<param name="mlMinStopFrame" value="0.005mm"/>
+<param name="mlMaxStopFrame" value="0.01mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="1mm"/>
@@ -4659,6 +4665,17 @@ einem neuen Namen ab.</description>
 </signal>
 </signals>
 <errors>
+<approved hash="18,29,4de83132ff254a9b"/>
+<approved hash="18,30,9cf0a6727b20c97a"/>
+<approved hash="18,30,edad0de978c9af6b"/>
+<approved hash="18,30,08135fa63fa46811"/>
+<approved hash="18,30,3a1641a321a15a14"/>
+<approved hash="18,30,2a38da47aaacb01b"/>
+<approved hash="18,30,e3a2dea0490af96a"/>
+<approved hash="18,30,4142e36d7911c711"/>
+<approved hash="18,30,4143336ccb17bc2c"/>
+<approved hash="18,30,fa511a1758ca8f6a"/>
+<approved hash="18,30,a4fced9e04291a75"/>
 <approved hash="3,16,3bf860405419d23a"/>
 <approved hash="3,16,accc003403d3af2b"/>
 <approved hash="3,16,acec001400f2ac0a"/>
@@ -4703,17 +4720,16 @@ einem neuen Namen ab.</description>
 <approved hash="8,16,d5db24c5d2c547c4"/>
 <approved hash="8,16,9e799567a6624669"/>
 <approved hash="8,16,f120fafd3c6132a8"/>
-<approved hash="18,29,4de83132ff254a9b"/>
-<approved hash="18,30,9cf0a6727b20c97a"/>
-<approved hash="18,30,edad0de978c9af6b"/>
-<approved hash="18,30,08135fa63fa46811"/>
-<approved hash="18,30,3a1641a321a15a14"/>
-<approved hash="18,30,2a38da47aaacb01b"/>
-<approved hash="18,30,e3a2dea0490af96a"/>
-<approved hash="18,30,4142e36d7911c711"/>
-<approved hash="18,30,4143336ccb17bc2c"/>
-<approved hash="18,30,fa511a1758ca8f6a"/>
-<approved hash="18,30,a4fced9e04291a75"/>
+<approved hash="18,29,770959cbfff60376"/>
+<approved hash="18,30,1e411e29d5fc80fc"/>
+<approved hash="18,30,c7091a99d1013a24"/>
+<approved hash="18,30,c6ccc718271c26c8"/>
+<approved hash="18,30,9f892fcacfcc7f8f"/>
+<approved hash="18,30,a18e31cdd1cf418c"/>
+<approved hash="18,30,22c579e00ccb700e"/>
+<approved hash="18,30,eadd2a389aa05c1d"/>
+<approved hash="18,30,d7ab7a0b803d87e2"/>
+<approved hash="18,30,25396e1e2cc8400f"/>
 <approved hash="6,1,05d978e57a9707ab"/>
 <approved hash="6,1,b177ce2139043980"/>
 <approved hash="6,1,05d978e57a9707ab"/>
