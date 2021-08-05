@@ -406,9 +406,8 @@ Rev. 1.3 JPN '20</text>
 </polygon>
 <rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="39"/>
 <rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="51"/>
-<wire x1="-0.58" y1="0.1" x2="-0.6" y2="0.1" width="0.127" layer="21"/>
 </package>
-<package name="WQFN32-5X5">
+<package name="WQFN32-5X5-LP">
 <smd name="PAD" x="0" y="0" dx="3.1" dy="3.1" layer="1" cream="no"/>
 <smd name="1" x="1.75" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
 <smd name="2" x="1.25" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
@@ -442,23 +441,12 @@ Rev. 1.3 JPN '20</text>
 <smd name="30" x="2.4" y="0.75" dx="0.6" dy="0.25" layer="1"/>
 <smd name="31" x="2.4" y="1.25" dx="0.6" dy="0.25" layer="1"/>
 <smd name="32" x="2.4" y="1.75" dx="0.6" dy="0.25" layer="1"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
 <rectangle x1="-1.35" y1="0.15" x2="-0.15" y2="1.35" layer="31"/>
 <rectangle x1="0.15" y1="0.15" x2="1.35" y2="1.35" layer="31"/>
 <rectangle x1="0.15" y1="-1.35" x2="1.35" y2="-0.15" layer="31"/>
 <rectangle x1="-1.35" y1="-1.35" x2="-0.15" y2="-0.15" layer="31"/>
-<wire x1="2.5" y1="2.5" x2="2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2.1" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="2.1" y="2.5"/>
-<vertex x="2.5" y="2.5"/>
-<vertex x="2.5" y="2.1"/>
-</polygon>
+<wire x1="2.6" y1="2.6" x2="2.1" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
 <text x="-2.5" y="3" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="39"/>
 </package>
@@ -1013,7 +1001,7 @@ Rev. 1.3 JPN '20</text>
 <wire x1="-0.7" y1="-0.329278125" x2="-0.7" y2="0.329278125" width="0.05" layer="51"/>
 <wire x1="-0.7" y1="0.329278125" x2="-0.529278125" y2="0.5" width="0.05" layer="51" curve="-90"/>
 </package>
-<package name="LGA-28-3.8X5.2">
+<package name="LGA-28-3.8X2.5-LP">
 <smd name="1" x="-2.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
 <smd name="2" x="-2.3" y="0.75" dx="0.25" dy="0.375" layer="1" rot="R90"/>
 <smd name="3" x="-2.3" y="0.25" dx="0.25" dy="0.375" layer="1" rot="R90"/>
@@ -1042,17 +1030,9 @@ Rev. 1.3 JPN '20</text>
 <smd name="26" x="-0.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
 <smd name="27" x="-1.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
 <smd name="28" x="-1.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
-<wire x1="-2.6" y1="1.9" x2="2.6" y2="1.9" width="0.127" layer="21"/>
-<wire x1="2.6" y1="1.9" x2="2.6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-1.9" x2="-2.6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-1.9" x2="-2.6" y2="1.1" width="0.127" layer="21"/>
 <text x="-2.5" y="2.1" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <text x="-2.5938" y="-3.1748" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
 <rectangle x1="-2.6" y1="-1.9" x2="2.6" y2="1.9" layer="39"/>
-<wire x1="-2.6" y1="1.1" x2="-2.6" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.9" x2="-2.7" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-2.7" y1="1.9" x2="-2.7" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-2.7" y1="1.1" x2="-2.6" y2="1.1" width="0.127" layer="21"/>
 </package>
 <package name="VFLGA4-2.0X1.6">
 <smd name="4" x="-0.775" y="0.475" dx="0.4" dy="0.7" layer="1"/>
@@ -1156,7 +1136,7 @@ Rev. 1.3 JPN '20</text>
 <smd name="7" x="0.91" y="0.25" dx="0.8" dy="0.3" layer="1" rot="R180"/>
 <smd name="8" x="0.91" y="0.75" dx="0.8" dy="0.3" layer="1" rot="R180"/>
 </package>
-<package name="WLCSP6-1X1.2">
+<package name="WLCSP6-1X1.2-LP">
 <smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
@@ -1164,18 +1144,13 @@ Rev. 1.3 JPN '20</text>
 <smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
 <rectangle x1="-0.5" y1="-0.6" x2="0.5" y2="0.6" layer="39"/>
-<wire x1="-0.56" y1="-0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
-<wire x1="0.56" y1="0.66" x2="0.56" y2="-0.66" width="0.127" layer="21"/>
-<wire x1="0.56" y1="-0.66" x2="-0.56" y2="-0.66" width="0.127" layer="21"/>
-<wire x1="0.56" y1="0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
-<text x="-0.7" y="-1.8" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
-<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="0" radius="0.152003125" width="0" layer="21"/>
-<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
 </package>
 </packages>
 </library>
@@ -1396,7 +1371,7 @@ einem neuen Namen ab.</description>
 <element name="R22" library="jonnew" package="0201T" value="10k" x="-6.75" y="14.05" smashed="yes" rot="MR270"/>
 <element name="U6" library="jonnew" package="X2SON" value="NCP161BMX330" x="2.5" y="15.6" smashed="yes" rot="MR0"/>
 <element name="U8" library="jonnew" package="X2SON" value="TLV70712" x="-1.8" y="5.4" smashed="yes" rot="R180"/>
-<element name="U5" library="jonnew" package="WQFN32-5X5" value="DS90UB933_WQFN" x="-3.84" y="11" smashed="yes"/>
+<element name="U5" library="jonnew" package="WQFN32-5X5-LP" value="DS90UB933_WQFN" x="-3.84" y="11" smashed="yes"/>
 <element name="J2" library="jonnew" package="X_FL_R_SMT_1(02)" value="X.FL-R-SMT-1(02)" x="-2.23" y="17" smashed="yes"/>
 <element name="D3" library="jonnew" package="0402T-DFN" value="SESD0402X1UN-0020-090" x="-4.11" y="15.6" smashed="yes" rot="R270"/>
 <element name="U1" library="jonnew" package="MBGA153-8X8" value="10M08SAM15317G" x="3.8" y="10.3" smashed="yes"/>
@@ -1491,7 +1466,7 @@ einem neuen Namen ab.</description>
 <element name="C20" library="jonnew" package="0402T" value="10uF" x="0.9" y="10.42" smashed="yes" rot="MR238.2"/>
 <element name="C29" library="jonnew" package="0201T" value="0.1uF" x="-1.95" y="9.5" smashed="yes" rot="MR90"/>
 <element name="C27" library="jonnew" package="0201T" value="0.1uF" x="-0.8" y="7.2" smashed="yes" rot="MR180"/>
-<element name="U10" library="jonnew" package="LGA-28-3.8X5.2" value="BNO055" x="-4" y="7" smashed="yes" rot="MR0"/>
+<element name="U10" library="jonnew" package="LGA-28-3.8X2.5-LP" value="BNO055_LP" x="-4" y="7" smashed="yes" rot="MR0"/>
 <element name="C39" library="jonnew" package="0201T" value="0.1uF" x="-3.75" y="4.8" smashed="yes" rot="MR180"/>
 <element name="R20" library="jonnew" package="0201T" value="10k" x="-5" y="4.8" smashed="yes" rot="MR0"/>
 <element name="R24" library="jonnew" package="0201T" value="10k" x="-0.8" y="6.6" smashed="yes" rot="MR0"/>
@@ -1545,8 +1520,8 @@ einem neuen Namen ab.</description>
 <element name="C26" library="jonnew" package="0402TW" value="10uF" x="1.2" y="14.93" smashed="yes" rot="MR270"/>
 <element name="C28" library="jonnew" package="0402TW" value="10uF" x="0.78" y="16.76" smashed="yes" rot="MR90"/>
 <element name="C25" library="jonnew" package="0201T" value="1uF" x="1.7" y="17.75" smashed="yes" rot="MR0"/>
-<element name="U4" library="jonnew" package="WLCSP6-1X1.2" value="ADP7112ACBZ-1.8-R7" x="-7.2" y="6.7" smashed="yes"/>
-<element name="U9" library="jonnew" package="WLCSP6-1X1.2" value="ADP7112ACBZ-1.2-R7" x="-7.19" y="7.74" smashed="yes" rot="MR0"/>
+<element name="U4" library="jonnew" package="WLCSP6-1X1.2-LP" value="ADP7112ACBZ-1.8-R7" x="-7.2" y="6.7" smashed="yes"/>
+<element name="U9" library="jonnew" package="WLCSP6-1X1.2-LP" value="ADP7112ACBZ-1.2-R7" x="-7.19" y="7.74" smashed="yes" rot="MR0"/>
 <element name="C30" library="jonnew" package="0201T" value="1nF" x="-7.2" y="9.14" smashed="yes" rot="MR180"/>
 <element name="C33" library="jonnew" package="0402TW" value="10uF" x="-7.22" y="5.21" smashed="yes" rot="R270"/>
 <element name="C24" library="jonnew" package="0402TW" value="10uF" x="-7.2" y="8.25" smashed="yes" rot="R90"/>
@@ -6364,6 +6339,10 @@ einem neuen Namen ab.</description>
 <approved hash="18,30,4143336ccb17bc2c"/>
 <approved hash="18,30,fa511a1758ca8f6a"/>
 <approved hash="18,30,a4fced9e04291a75"/>
+<approved hash="18,30,c7091a99d1013a24"/>
+<approved hash="18,30,c6ccc718271c26c8"/>
+<approved hash="18,30,9f892fcacfcc7f8f"/>
+<approved hash="18,30,a18e31cdd1cf418c"/>
 <approved hash="3,16,3bf860405419d23a"/>
 <approved hash="3,16,accc003403d3af2b"/>
 <approved hash="3,16,acec001400f2ac0a"/>
@@ -6410,10 +6389,6 @@ einem neuen Namen ab.</description>
 <approved hash="8,16,f120fafd3c6132a8"/>
 <approved hash="18,29,770959cbfff60376"/>
 <approved hash="18,30,1e411e29d5fc80fc"/>
-<approved hash="18,30,c7091a99d1013a24"/>
-<approved hash="18,30,c6ccc718271c26c8"/>
-<approved hash="18,30,9f892fcacfcc7f8f"/>
-<approved hash="18,30,a18e31cdd1cf418c"/>
 <approved hash="18,30,22c579e00ccb700e"/>
 <approved hash="18,30,eadd2a389aa05c1d"/>
 <approved hash="18,30,d7ab7a0b803d87e2"/>

@@ -336,25 +336,25 @@
 <smd name="30" x="2.4" y="0.75" dx="0.6" dy="0.25" layer="1"/>
 <smd name="31" x="2.4" y="1.25" dx="0.6" dy="0.25" layer="1"/>
 <smd name="32" x="2.4" y="1.75" dx="0.6" dy="0.25" layer="1"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.1" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.1" y2="-2.5" width="0.127" layer="21"/>
 <rectangle x1="-1.35" y1="0.15" x2="-0.15" y2="1.35" layer="31"/>
 <rectangle x1="0.15" y1="0.15" x2="1.35" y2="1.35" layer="31"/>
 <rectangle x1="0.15" y1="-1.35" x2="1.35" y2="-0.15" layer="31"/>
 <rectangle x1="-1.35" y1="-1.35" x2="-0.15" y2="-0.15" layer="31"/>
-<wire x1="2.5" y1="2.5" x2="2.1" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2.1" width="0.127" layer="21"/>
-<polygon width="0.127" layer="21">
-<vertex x="2.1" y="2.5"/>
-<vertex x="2.5" y="2.5"/>
-<vertex x="2.5" y="2.1"/>
-</polygon>
+<wire x1="2.6" y1="2.6" x2="2.1" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.2" width="0.127" layer="21"/>
 <text x="-2.5" y="3" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="39"/>
+<wire x1="2.1" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.1" x2="2.6" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.2" x2="2.3" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.4" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-2.1" x2="2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="2.1" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.1" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.1" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="2.1" x2="-2.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="-2.1" y2="2.6" width="0.127" layer="21"/>
 </package>
 <package name="X2SON">
 <smd name="PAD" x="0" y="0" dx="0.1" dy="0.1" layer="1" rot="R45" stop="no" thermals="no" cream="no"/>
@@ -3753,12 +3753,12 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <wire x1="0.56" y1="0.66" x2="-0.56" y2="0.66" width="0.127" layer="21"/>
 <text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
 <text x="-0.7" y="-1.8" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
-<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="0" radius="0.152003125" width="0" layer="21"/>
-<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
-<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="21"/>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
 </package>
 <package name="1-2013496-8">
 <smd name="1" x="-6.6" y="0" dx="0.65" dy="0.3" layer="1" rot="R90"/>
@@ -3836,6 +3836,98 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <pad name="10" x="-2.54" y="-0.635" drill="0.71" diameter="1.06"/>
 <rectangle x1="-3.4" y1="-1.4" x2="3.4" y2="7.7" layer="39"/>
 <text x="-2" y="-2.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
+</package>
+<package name="WLCSP6-1X1.2-LP">
+<smd name="A1" x="-0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="A2" x="0.2" y="0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B1" x="-0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="B2" x="0.2" y="0" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C1" x="-0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<smd name="C2" x="0.2" y="-0.4" dx="0.3048" dy="0.3048" layer="1" roundness="100" stop="no"/>
+<rectangle x1="-0.5" y1="-0.6" x2="0.5" y2="0.6" layer="39"/>
+<text x="-0.7" y="0.8" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<circle x="-0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="0" radius="0.152003125" width="0" layer="29"/>
+<circle x="-0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
+<circle x="0.2" y="-0.4" radius="0.152003125" width="0" layer="29"/>
+</package>
+<package name="WQFN32-5X5-LP">
+<smd name="PAD" x="0" y="0" dx="3.1" dy="3.1" layer="1" cream="no"/>
+<smd name="1" x="1.75" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="0.75" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="0.25" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="-0.25" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="-0.75" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-1.25" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="-1.75" y="2.4" dx="0.6" dy="0.25" layer="1" rot="R90"/>
+<smd name="9" x="-2.4" y="1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="10" x="-2.4" y="1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="11" x="-2.4" y="0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="-2.4" y="0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="13" x="-2.4" y="-0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="14" x="-2.4" y="-0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="15" x="-2.4" y="-1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="-2.4" y="-1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="17" x="-1.75" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="18" x="-1.25" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="19" x="-0.75" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="20" x="-0.25" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="21" x="0.25" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="22" x="0.75" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="23" x="1.25" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="24" x="1.75" y="-2.4" dx="0.6" dy="0.25" layer="1" rot="R270"/>
+<smd name="25" x="2.4" y="-1.75" dx="0.6" dy="0.25" layer="1"/>
+<smd name="26" x="2.4" y="-1.25" dx="0.6" dy="0.25" layer="1"/>
+<smd name="27" x="2.4" y="-0.75" dx="0.6" dy="0.25" layer="1"/>
+<smd name="28" x="2.4" y="-0.25" dx="0.6" dy="0.25" layer="1"/>
+<smd name="29" x="2.4" y="0.25" dx="0.6" dy="0.25" layer="1"/>
+<smd name="30" x="2.4" y="0.75" dx="0.6" dy="0.25" layer="1"/>
+<smd name="31" x="2.4" y="1.25" dx="0.6" dy="0.25" layer="1"/>
+<smd name="32" x="2.4" y="1.75" dx="0.6" dy="0.25" layer="1"/>
+<rectangle x1="-1.35" y1="0.15" x2="-0.15" y2="1.35" layer="31"/>
+<rectangle x1="0.15" y1="0.15" x2="1.35" y2="1.35" layer="31"/>
+<rectangle x1="0.15" y1="-1.35" x2="1.35" y2="-0.15" layer="31"/>
+<rectangle x1="-1.35" y1="-1.35" x2="-0.15" y2="-0.15" layer="31"/>
+<wire x1="2.6" y1="2.6" x2="2.1" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="2.6" x2="2.6" y2="2.1" width="0.127" layer="21"/>
+<text x="-2.5" y="3" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="39"/>
+</package>
+<package name="LGA-28-3.8X2.5-LP">
+<smd name="1" x="-2.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="2" x="-2.3" y="0.75" dx="0.25" dy="0.375" layer="1" rot="R90"/>
+<smd name="3" x="-2.3" y="0.25" dx="0.25" dy="0.375" layer="1" rot="R90"/>
+<smd name="4" x="-2.3" y="-0.25" dx="0.25" dy="0.375" layer="1" rot="R90"/>
+<smd name="5" x="-2.3" y="-0.75" dx="0.25" dy="0.375" layer="1" rot="R90"/>
+<smd name="6" x="-2.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="7" x="-1.75" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="8" x="-1.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="9" x="-0.75" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="10" x="-0.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="11" x="0.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="12" x="0.75" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="13" x="1.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="14" x="1.75" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="15" x="2.25" y="-1.56" dx="0.25" dy="0.475" layer="1"/>
+<smd name="16" x="2.3" y="-0.75" dx="0.25" dy="0.375" layer="1" rot="R270"/>
+<smd name="17" x="2.3" y="-0.25" dx="0.25" dy="0.375" layer="1" rot="R270"/>
+<smd name="18" x="2.3" y="0.25" dx="0.25" dy="0.375" layer="1" rot="R270"/>
+<smd name="19" x="2.3" y="0.75" dx="0.25" dy="0.375" layer="1" rot="R270"/>
+<smd name="20" x="2.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="21" x="1.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="22" x="1.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="23" x="0.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="24" x="0.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="25" x="-0.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="26" x="-0.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="27" x="-1.25" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<smd name="28" x="-1.75" y="1.56" dx="0.25" dy="0.475" layer="1" rot="R180"/>
+<text x="-2.5" y="2.1" size="1.016" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="-2.5938" y="-3.1748" size="1.016" layer="27" font="vector" ratio="18">&gt;VALUE</text>
+<rectangle x1="-2.6" y1="-1.9" x2="2.6" y2="1.9" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -4903,12 +4995,52 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DS90UB913A" prefix="U">
+<deviceset name="DS90UB913A" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="DS90UB913A" x="0" y="0"/>
 </gates>
 <devices>
 <device name="_WQFN" package="WQFN32-5X5">
+<connects>
+<connect gate="G$1" pin="DIN0" pad="19"/>
+<connect gate="G$1" pin="DIN1" pad="20"/>
+<connect gate="G$1" pin="DIN10" pad="31"/>
+<connect gate="G$1" pin="DIN11" pad="32"/>
+<connect gate="G$1" pin="DIN2" pad="21"/>
+<connect gate="G$1" pin="DIN3" pad="22"/>
+<connect gate="G$1" pin="DIN4" pad="23"/>
+<connect gate="G$1" pin="DIN5" pad="24"/>
+<connect gate="G$1" pin="DIN6" pad="26"/>
+<connect gate="G$1" pin="DIN7" pad="27"/>
+<connect gate="G$1" pin="DIN8" pad="29"/>
+<connect gate="G$1" pin="DIN9" pad="30"/>
+<connect gate="G$1" pin="DOUT+" pad="13"/>
+<connect gate="G$1" pin="DOUT-" pad="12"/>
+<connect gate="G$1" pin="GND" pad="PAD"/>
+<connect gate="G$1" pin="GPIO0" pad="15"/>
+<connect gate="G$1" pin="GPIO1" pad="16"/>
+<connect gate="G$1" pin="GPIO2/CLKOUT" pad="17"/>
+<connect gate="G$1" pin="GPO3/CLKIN" pad="18"/>
+<connect gate="G$1" pin="HSYNC" pad="1"/>
+<connect gate="G$1" pin="ID" pad="6"/>
+<connect gate="G$1" pin="MODE" pad="8"/>
+<connect gate="G$1" pin="PCLK1" pad="3"/>
+<connect gate="G$1" pin="PDB" pad="9"/>
+<connect gate="G$1" pin="RES" pad="7"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VDDCML" pad="14"/>
+<connect gate="G$1" pin="VDDD" pad="28"/>
+<connect gate="G$1" pin="VDDIO" pad="25"/>
+<connect gate="G$1" pin="VDDPLL" pad="10"/>
+<connect gate="G$1" pin="VDDT" pad="11"/>
+<connect gate="G$1" pin="VSYNC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_LP" package="WQFN32-5X5-LP">
 <connects>
 <connect gate="G$1" pin="DIN0" pad="19"/>
 <connect gate="G$1" pin="DIN1" pad="20"/>
@@ -6830,6 +6962,31 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_LP" package="LGA-28-3.8X2.5-LP">
+<connects>
+<connect gate="G$1" pin="!BOOT_LOAD" pad="4"/>
+<connect gate="G$1" pin="!RESET" pad="11"/>
+<connect gate="G$1" pin="BL_IND" pad="10"/>
+<connect gate="G$1" pin="CAP" pad="9"/>
+<connect gate="G$1" pin="COM0/SDA/TX" pad="20"/>
+<connect gate="G$1" pin="COM1/SCL/RX" pad="19"/>
+<connect gate="G$1" pin="COM2" pad="18"/>
+<connect gate="G$1" pin="COM3/ADDR" pad="17"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GNDIO" pad="15 16 25"/>
+<connect gate="G$1" pin="INT" pad="14"/>
+<connect gate="G$1" pin="PS0" pad="6"/>
+<connect gate="G$1" pin="PS1" pad="5"/>
+<connect gate="G$1" pin="RESV(DNC)" pad="1 7 8 12 13 21 22 23 24" route="any"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VDDIO" pad="28"/>
+<connect gate="G$1" pin="XIN32" pad="27"/>
+<connect gate="G$1" pin="XOUT32" pad="26"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TS4231" prefix="U" uservalue="yes">
@@ -6991,6 +7148,19 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="_WLCSP-ADP7112_LP" package="WLCSP6-1X1.2-LP">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="B2"/>
+<connect gate="G$1" pin="EN" pad="C1"/>
+<connect gate="G$1" pin="GND" pad="C2"/>
+<connect gate="G$1" pin="SS" pad="B1"/>
+<connect gate="G$1" pin="VI" pad="A1"/>
+<connect gate="G$1" pin="VO" pad="A2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -7012,7 +7182,7 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 </class>
 </classes>
 <parts>
-<part name="U5" library="jonnew" deviceset="DS90UB913A" device="_WQFN" value="DS90UB933_WQFN"/>
+<part name="U5" library="jonnew" deviceset="DS90UB913A" device="_LP" value="DS90UB933_WQFN"/>
 <part name="U6" library="jonnew" deviceset="TLV707" device="" value="NCP161BMX330"/>
 <part name="U8" library="jonnew" deviceset="TLV707" device="" value="TLV70712"/>
 <part name="C36" library="jonnew" deviceset="C" device="_0402TW" value="10uF"/>
@@ -7177,7 +7347,7 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <part name="SUPPLY22" library="jonnew" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="jonnew" deviceset="GND" device=""/>
 <part name="P29" library="jonnew" deviceset="+3V3" device=""/>
-<part name="U10" library="jonnew" deviceset="BNO055" device=""/>
+<part name="U10" library="jonnew" deviceset="BNO055" device="_LP" value="BNO055_LP"/>
 <part name="C39" library="jonnew" deviceset="C" device="_0201T" value="0.1uF"/>
 <part name="SUPPLY20" library="jonnew" deviceset="GND" device=""/>
 <part name="R20" library="jonnew" deviceset="R" device="_0201T" value="10k"/>
@@ -7270,8 +7440,8 @@ CONN FPC BOTTOM 45POS 0.30MM R/A</description>
 <part name="SUPPLY18" library="jonnew" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="jonnew" deviceset="GND" device=""/>
 <part name="C25" library="jonnew" deviceset="C" device="_0201T" value="1uF"/>
-<part name="U4" library="jonnew" deviceset="LDO_ADJUST-EN-SS" device="_WLCSP-ADP7112" value="ADP7112ACBZ-1.8-R7"/>
-<part name="U9" library="jonnew" deviceset="LDO_ADJUST-EN-SS" device="_WLCSP-ADP7112" value="ADP7112ACBZ-1.2-R7"/>
+<part name="U4" library="jonnew" deviceset="LDO_ADJUST-EN-SS" device="_WLCSP-ADP7112_LP" value="ADP7112ACBZ-1.8-R7"/>
+<part name="U9" library="jonnew" deviceset="LDO_ADJUST-EN-SS" device="_WLCSP-ADP7112_LP" value="ADP7112ACBZ-1.2-R7"/>
 <part name="C30" library="jonnew" deviceset="C" device="_0201T" value="1nF"/>
 <part name="C33" library="jonnew" deviceset="C" device="_0402TW" value="10uF"/>
 <part name="C24" library="jonnew" deviceset="C" device="_0402TW" value="10uF"/>
@@ -7352,15 +7522,15 @@ max voltage. Use
 of BNO055, it is recommended to use
 the external 32.768 kHz crystal.</text>
 <wire x1="248.92" y1="264.16" x2="248.92" y2="469.9" width="0.508" layer="94" style="longdash"/>
-<wire x1="248.92" y1="469.9" x2="248.92" y2="612.14" width="0.508" layer="94" style="longdash"/>
-<wire x1="248.92" y1="612.14" x2="248.92" y2="835.66" width="0.508" layer="94" style="longdash"/>
+<wire x1="248.92" y1="469.9" x2="248.92" y2="601.98" width="0.508" layer="94" style="longdash"/>
+<wire x1="248.92" y1="601.98" x2="248.92" y2="835.66" width="0.508" layer="94" style="longdash"/>
 <wire x1="248.92" y1="469.9" x2="477.52" y2="469.9" width="0.508" layer="94" style="longdash"/>
-<wire x1="248.92" y1="612.14" x2="421.64" y2="612.14" width="0.508" layer="94" style="longdash"/>
-<wire x1="421.64" y1="612.14" x2="477.52" y2="612.14" width="0.508" layer="94" style="longdash"/>
-<wire x1="477.52" y1="612.14" x2="721.36" y2="612.14" width="0.508" layer="94" style="longdash"/>
-<wire x1="477.52" y1="612.14" x2="477.52" y2="469.9" width="0.508" layer="94" style="longdash"/>
+<wire x1="248.92" y1="601.98" x2="421.64" y2="601.98" width="0.508" layer="94" style="longdash"/>
+<wire x1="421.64" y1="601.98" x2="477.52" y2="601.98" width="0.508" layer="94" style="longdash"/>
+<wire x1="477.52" y1="601.98" x2="721.36" y2="601.98" width="0.508" layer="94" style="longdash"/>
+<wire x1="477.52" y1="601.98" x2="477.52" y2="469.9" width="0.508" layer="94" style="longdash"/>
 <wire x1="477.52" y1="469.9" x2="477.52" y2="393.7" width="0.508" layer="94" style="longdash"/>
-<wire x1="421.64" y1="612.14" x2="421.64" y2="835.66" width="0.508" layer="94" style="longdash"/>
+<wire x1="421.64" y1="601.98" x2="421.64" y2="835.66" width="0.508" layer="94" style="longdash"/>
 <text x="525.78" y="457.2" size="10.16" layer="97" rot="R90">3D TRACKING</text>
 <wire x1="477.52" y1="393.7" x2="591.82" y2="393.7" width="0.508" layer="94" style="longdash"/>
 <frame x1="15.24" y1="256.54" x2="726.44" y2="840.74" columns="8" rows="5" layer="94"/>
