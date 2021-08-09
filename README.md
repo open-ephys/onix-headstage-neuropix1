@@ -9,6 +9,8 @@ probe](https://www.neuropixels.org/probe). This headstage supports:
 - A high performance MAX10 FPGA for real-time processing and probe data
   correction (offset removal and gain correction)
 
+![headstage-neuropix1 revision 1.2](./resources/headstage-neuropix1_1r2_side-with-probes.jpg)
+
 There are two versions of this headstage in this repository, one that uses the
 standard IMEC-specified ZIF connector and a second that uses a larger, more
 reliable one.
