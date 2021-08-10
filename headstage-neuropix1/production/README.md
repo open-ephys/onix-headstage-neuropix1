@@ -9,3 +9,4 @@ Circuits](https://www.speedy-circuits.com.tw/).
 - NPTH: Non-plated through hole
 - OUT: Outline
 - \*SILK: Silkscreen
+- \*PASTE: Stencil
